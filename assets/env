@@ -1,0 +1,5 @@
+AWS_ACCESS_KEY="AKIA4IVMYCE4VYEFWFSS"
+AWS_SECRET_KEY="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"
+AWS_S3_ENDPOINT="musaint.s3.us-east-2.amazonaws.com"
+BUCKET_NAME="musaint"
+REGION="us-east-2"
