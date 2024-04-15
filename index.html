@@ -12,6 +12,7 @@
     * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
   -->
 <!--  <base href="/">-->
+  <base href="/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -22,6 +23,12 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="musa_v2_app">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <script src="app.js" defer></script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfT9b1sgK7Rdkylzu7pg5Kr0o62iuOzBE&libraries=places"
+    async defer></script>
+    <script src="https://unpkg.com/pica/dist/pica.min.js" ></script> 
+
 
   <title>musa_v2_app</title>
   <link rel="manifest" href="manifest.json">
@@ -31,7 +38,7 @@
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
   <script>
-    var serviceWorkerVersion = '2041249523';
+    const serviceWorkerVersion = "2734911432";
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
